@@ -10,7 +10,7 @@ Software engineering student exploring machine learning and AI. I build projects
 
 ### [Qwen Russian GEC](https://github.com/Prosto19/qwen-russian-gec-lora)
 
-Тестовое задание для отбора на стажировку в [Soup](https://trysoup.dev/about), продукт компании MePlay, Inc. Задача проекта — дообучение языковой модели для исправления русского текста. Дообучил Qwen2.5-1.5B через LoRA, объединил веса и экспортировал модель в GGUF. Сравнил сохранённые ответы на разных этапах, чтобы увидеть, как обучение и квантование влияют на результат.
+Тестовое задание для отбора на стажировку в [Soup](https://trysoup.dev/about), продукт компании MePlay, Inc. Задача проекта  дообучение языковой модели для исправления русского текста. Дообучил Qwen2.5-1.5B через LoRA, объединил веса и экспортировал модель в GGUF. Сравнил сохранённые ответы на разных этапах, чтобы увидеть, как обучение и квантование влияют на результат.
 
 <img src="https://github.com/Prosto19/qwen-russian-gec-lora/raw/main/assets/results.png" alt="Результаты Qwen на 20 примерах" width="650">
 
