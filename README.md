@@ -1,55 +1,56 @@
-<div align="center">
-
 # Ivan Anfimov
 
-### Machine Learning · AI · Software Engineering
+Software engineering student exploring machine learning and AI. I build projects with Python, Java and C++ and share what I learn along the way.
 
-Студент программной инженерии ННГУ им. Н. И. Лобачевского. Изучаю ML и создаю проекты на Python, Java и C++.
+[ML и AI](#ml-и-ai) · [Хакатоны](#хакатоны) · [Java](#java) · [Связаться](https://t.me/fimka2000)
 
-[ML / AI](#-machine-learning--ai) · [Хакатоны](#-хакатоны) · [Java](#-java) · [Контакт](https://t.me/fimka2000)
+## ML и AI
 
-</div>
+Здесь мои первые шаги в машинном обучении. Начал с распознавания цифр, затем попробовал дообучить языковую модель и проверить, что меняется после экспорта.
 
----
+### [Qwen Russian GEC](https://github.com/Prosto19/qwen-russian-gec-lora)
 
-## 🧠 Machine Learning & AI
+Мой эксперимент с исправлением русского текста. Дообучил Qwen2.5-1.5B через LoRA, объединил веса и экспортировал модель в GGUF. Сравнил сохранённые ответы на разных этапах, чтобы увидеть, как обучение и квантование влияют на результат.
 
-| Проект | Что внутри | Технологии |
-| --- | --- | --- |
-| **[Qwen Russian GEC](https://github.com/Prosto19/qwen-russian-gec-lora)** | Дообучение модели для исправления русского текста, экспорт и анализ сохранённых результатов | Qwen2.5 · LoRA · Soup · GGUF |
-| **[Digits Classifier](https://github.com/Prosto19/digits-classifier)** | Мой первый ML-проект — распознавание рукописных цифр | Python · scikit-learn · kNN · Matplotlib |
+<img src="https://github.com/Prosto19/qwen-russian-gec-lora/raw/main/assets/results.png" alt="Результаты Qwen на 20 примерах" width="650">
 
-[Модель Qwen на Hugging Face ↗](https://huggingface.co/Prosto19/qwen-russian-gec-lora)
+На графике показаны точные совпадения с эталоном на 20 примерах. Это небольшой эксперимент, и его результаты подробно разобраны в репозитории.
 
-## 🚀 Хакатоны
+**Технологии** · Python, Qwen2.5, LoRA, Soup, GGUF
 
-### [NOVA — цифровой деканат](https://github.com/Prosto19/Nova)
+[Код и отчёты](https://github.com/Prosto19/qwen-russian-gec-lora) · [Скачать модель](https://huggingface.co/Prosto19/qwen-russian-gec-lora)
 
-Проект для **MGIMO AI Challenge**. Кабинеты студента, преподавателя и деканата, расписание, заявления и AI-ассистент в одном приложении.
+### [Digits Classifier](https://github.com/Prosto19/digits-classifier)
 
-**JavaScript · Node.js · SQLite · Qwen · Ollama**
+Мой первый ML-проект. Классификатор распознаёт рукописные цифры по изображениям 8×8 пикселей. На нём я разбирался с обучающей и тестовой выборками, алгоритмом kNN и проверкой предсказаний.
 
-[Открыть демо ↗](https://prosto19.github.io/Nova/) · [Руководство со скриншотами ↗](https://github.com/Prosto19/Nova/blob/main/docs/NOVA-guide.pdf)
+**Технологии** · Python, scikit-learn, kNN, Matplotlib
 
-## ☕ Java
+## Хакатоны
+
+### [NOVA](https://github.com/Prosto19/Nova)
+
+Цифровой деканат для MGIMO AI Challenge. Студент может узнать расписание, отправить заявление и написать преподавателю. У преподавателя и деканата свои кабинеты, а AI-ассистент помогает работать с сервисом через чат.
+
+<a href="https://prosto19.github.io/Nova/"><img src="https://github.com/Prosto19/Nova/raw/main/docs/nova-preview.jpg" alt="Интерфейс NOVA" width="650"></a>
+
+**Технологии** · JavaScript, Node.js, SQLite, Qwen, Ollama
+
+[Открыть демо](https://prosto19.github.io/Nova/) · [Посмотреть руководство](https://github.com/Prosto19/Nova/blob/main/docs/NOVA-guide.pdf)
+
+## Java
 
 ### [Эмулятор процессора](https://github.com/Prosto19/Unn-lab_2)
 
-Университетская лабораторная работа на Java в ННГУ. Практика программирования и работы с архитектурой компьютера.
+Проект на Java, в котором я разбираюсь с выполнением инструкций и устройством процессора.
 
----
+**Технологии** · Java
 
 <details>
-<summary><b>Мой текущий фокус</b></summary>
+<summary>Что изучаю сейчас</summary>
 
-- Обработка данных с NumPy и Pandas.
-- Классическое машинное обучение и оценка моделей.
-- Практика Python и Java в собственных и университетских проектах.
+Работаю с NumPy и Pandas, изучаю классическое машинное обучение и оценку моделей. Продолжаю практиковаться в Python и Java.
 
 </details>
 
-<div align="center">
-
-[Telegram](https://t.me/fimka2000) · [Hugging Face](https://huggingface.co/Prosto19) · [Все репозитории](https://github.com/Prosto19?tab=repositories)
-
-</div>
+[Telegram](https://t.me/fimka2000) · [Hugging Face](https://huggingface.co/Prosto19) · [Все проекты](https://github.com/Prosto19?tab=repositories)
