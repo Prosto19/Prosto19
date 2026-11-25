@@ -4,7 +4,7 @@ Software engineering student exploring machine learning and AI. I build projects
 
 [ML и AI](#ml-и-ai) · [Хакатоны](#хакатоны) · [Java](#java) · [Связаться](https://t.me/fimka2000)
 
-## ML и AI
+## ML/AI
 
 Здесь мои первые шаги в машинном обучении. Начал с распознавания цифр, затем попробовал дообучить языковую модель и проверить, что меняется после экспорта.
 
